@@ -1,0 +1,61 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "json2ts",
+  "title": "Json2TS",
+  "version": "0.1.0",
+  "description": "Generate TypeScript interfaces from JSON",
+  "icon": "command-icon.png",
+  "author": "almatkai",
+  "license": "MIT",
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "contributors": [
+    "yusifaliyevpro"
+  ],
+  "commands": [
+    {
+      "name": "index",
+      "title": "Json2ts",
+      "description": "Generate TypeScript interfaces from JSON",
+      "mode": "view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ]
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.103.2",
+    "json-ts": "^1.6.4"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^2.0.4",
+    "@types/node": "^22.18.6",
+    "@types/react": "^19.1.13",
+    "eslint": "^9.35.0",
+    "eslint-config-prettier": "^10.1.8",
+    "typescript": "^5.8.2"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "id": "com.tezbar.json2ts",
+  "tezbar": {
+    "schemaVersion": 1,
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "linuxStatus": "coming-soon",
+    "repository": "https://github.com/almatkai/json2ts",
+    "upstream": {
+      "repository": "https://github.com/raycast/extensions",
+      "path": "extensions/json2ts",
+      "commit": "6734d85992290066fd31a7f5bee3cca3d3545a1a"
+    }
+  }
+}
