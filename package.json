@@ -4,8 +4,9 @@
   "title": "Json2TS",
   "version": "0.1.0",
   "description": "Generate TypeScript interfaces from JSON",
-  "icon": "command-icon.png",
+  "icon": "assets/command-icon.png",
   "author": "almatkai",
+  "categories": ["Developer Tools"],
   "license": "MIT",
   "platforms": [
     "macOS",
