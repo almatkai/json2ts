@@ -1,0 +1,21 @@
+//! Contract harness: unchanged beta implementation plus explicit headless stubs.
+#![allow(dead_code)]
+pub mod native_core {
+    pub mod common {
+        include!("__ROOT__/fixtures/beta/src-tauri/src/native_core/common.rs");
+    }
+    pub mod extensions {
+        #[path = "__ROOT__/adapter/v2_json2ts.rs"]
+        pub mod v2_json2ts;
+        #[path = "__ROOT__/fixtures/beta/src-tauri/src/native_core/extensions/v2_sdk.rs"]
+        pub mod v2_sdk;
+    }
+}
+#[cfg(test)]
+mod tests {
+    include!("adapter_tests.rs");
+}
+#[cfg(test)]
+mod session_tests {
+    include!("session_tests.rs");
+}

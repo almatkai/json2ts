@@ -1,0 +1,1104 @@
+{
+  "ownSourceSHA": "8186f2229ec907bb3f705d1a641fd7159f0339f9",
+  "originalSHA": "6734d85992290066fd31a7f5bee3cca3d3545a1a",
+  "betaSHA": "fd300e276356587726566026f072563eb9c34cb1",
+  "aggregateSPDX": "MIT AND ISC AND Apache-2.0 AND LicenseRef-json-ts-Unspecified",
+  "resolvedConversionVersions": {
+    "json-ts": "1.6.4",
+    "immutable": "3.8.3",
+    "needsquotes": "1.0.0",
+    "typescript": "2.9.2"
+  },
+  "embeddedLodash": "4.17.4",
+  "jsonTsGitHead": "eb6d3acdae92f03a31f9f0494ac6fa464bdb1891",
+  "files": [
+    {
+      "path": "fixtures/beta/LICENSE",
+      "bytes": 10750,
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "LICENSE"
+      }
+    },
+    {
+      "path": "fixtures/beta/docs/NATIVE_V2_FORMAT.md",
+      "bytes": 2593,
+      "sha256": "8bf9315ad047326dd6737587ca5491fc35faf5e3f92a2d9c63f596be0c8f7b7a",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "docs/NATIVE_V2_FORMAT.md"
+      }
+    },
+    {
+      "path": "fixtures/beta/package.json",
+      "bytes": 2909,
+      "sha256": "a9e41304960cd456d9f0b223110cd3abfd012c8899fa703acacee6b0d719faf7",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "package.json"
+      }
+    },
+    {
+      "path": "fixtures/beta/pnpm-lock.yaml",
+      "bytes": 158612,
+      "sha256": "9ea96c8e56c802695899d7014a573fadff8a37fd665fa71225526bd41b659bfc",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "pnpm-lock.yaml"
+      }
+    },
+    {
+      "path": "fixtures/beta/schemas/extension-v2.schema.json",
+      "bytes": 2420,
+      "sha256": "6d5afda1b652605982104bdf16d1547547b98dfd707a7b2969316406c49f32af",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "schemas/extension-v2.schema.json"
+      }
+    },
+    {
+      "path": "fixtures/beta/src/renderer/ExtensionRuntimeView.tsx",
+      "bytes": 23694,
+      "sha256": "cfe15d50c89b0e57666604fea06327c3bd564ee2644404676a233149a025395d",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src/renderer/ExtensionRuntimeView.tsx"
+      }
+    },
+    {
+      "path": "fixtures/beta/src/renderer/extensionRuntimeStatus.test.ts",
+      "bytes": 8836,
+      "sha256": "1726020f088ca3a4533c29d3647bca7e6b653793192d0041402670a9ebf0d717",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src/renderer/extensionRuntimeStatus.test.ts"
+      }
+    },
+    {
+      "path": "fixtures/beta/src/renderer/extensionRuntimeStatus.ts",
+      "bytes": 8473,
+      "sha256": "b85af9b2b8256a141d1876b896bfc3c8ab30d3e930137370ea27af7f25169b4d",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src/renderer/extensionRuntimeStatus.ts"
+      }
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/action-runtime-overlay.tsx",
+      "bytes": 2915,
+      "sha256": "3eb4a59db0de59460ea8a2c7f4a1f6ec5b514a512f49352bf373db64ed58d604",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src/renderer/src/raycast-api/action-runtime-overlay.tsx"
+      }
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/action-runtime-registry.tsx",
+      "bytes": 692,
+      "sha256": "ffbad6f70410c6d2dcf4af217abe4ab297d69c0cae2c993263c008a423175e16",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src/renderer/src/raycast-api/action-runtime-registry.tsx"
+      }
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/action-runtime.tsx",
+      "bytes": 391,
+      "sha256": "6e7a41e3d1a7ee2028103683f08fb8ed20e4b2e5751e182afe9f8e189522a28b",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src/renderer/src/raycast-api/action-runtime.tsx"
+      }
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/detail-runtime.test.ts",
+      "bytes": 1028,
+      "sha256": "94acca3393a3636f7188a2ceac4a5e0429c2a0bc3433b02163602bdbe38beef4",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src/renderer/src/raycast-api/detail-runtime.test.ts"
+      }
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/detail-runtime.tsx",
+      "bytes": 23478,
+      "sha256": "32eecb50891e0f282bd3d78d8a38193ec24540bf70c3fdc8e43a1d368c97d54c",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src/renderer/src/raycast-api/detail-runtime.tsx"
+      }
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/form-runtime.test.ts",
+      "bytes": 3876,
+      "sha256": "3c449509be65d1ffc8949a11835fadeb6300b7d647898309b5abc5b2e94af112",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src/renderer/src/raycast-api/form-runtime.test.ts"
+      }
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/form-runtime.tsx",
+      "bytes": 21087,
+      "sha256": "8568d0ac5be03eea97d0def38067dbbbdce5ae97c36a51024857ef20dce299a6",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src/renderer/src/raycast-api/form-runtime.tsx"
+      }
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/grid-content.ts",
+      "bytes": 761,
+      "sha256": "71cf7151e1986389b550cf5a069383af79b88de2726176859496ac40fd8d9d41",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src/renderer/src/raycast-api/grid-content.ts"
+      }
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/grid-runtime.test.ts",
+      "bytes": 587,
+      "sha256": "633fcbbd5048f46d69388016481dfd54f800a8ff404810a556eb7ccfa3b626a0",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src/renderer/src/raycast-api/grid-runtime.test.ts"
+      }
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/grid-runtime.tsx",
+      "bytes": 15804,
+      "sha256": "9c19dffaf9596814315f61d8a66eaa3b914a138d8f10c860e01efd245d3e2e5b",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src/renderer/src/raycast-api/grid-runtime.tsx"
+      }
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/hooks.ts",
+      "bytes": 4050,
+      "sha256": "50bb0c3ad3721f600abe3091f3adba1c6515c2d639356b20c94c7f5cc96a492b",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src/renderer/src/raycast-api/hooks.ts"
+      }
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/index.tsx",
+      "bytes": 7419,
+      "sha256": "7fc8413a72b92e8f88b0939cd93f91624018fe0765baa1e71b38b86f8cc77a64",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src/renderer/src/raycast-api/index.tsx"
+      }
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/ipc-bridge.ts",
+      "bytes": 1110,
+      "sha256": "17784548760d476efebeae36d5b03e9c50a69c2da2b92ce0163cabbfe9566d97",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src/renderer/src/raycast-api/ipc-bridge.ts"
+      }
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/list-runtime.tsx",
+      "bytes": 32174,
+      "sha256": "c7e253c34ce6e0a5132cab96bf1f0388393faca79ff57c3fdc7956f377a0ab0f",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src/renderer/src/raycast-api/list-runtime.tsx"
+      }
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/native-v2-visuals.test.ts",
+      "bytes": 3347,
+      "sha256": "afa00333ff5293015fc1d6c87dc429ef9fdb6322a89887c6ad7b6b5b49fcb182",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src/renderer/src/raycast-api/native-v2-visuals.test.ts"
+      }
+    },
+    {
+      "path": "fixtures/beta/src/shared/extensionRuntime.ts",
+      "bytes": 3838,
+      "sha256": "837b804856baa6b16ebda080920af456268fefcffa7a1c3e2964b95d697ee387",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src/shared/extensionRuntime.ts"
+      }
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/common.rs",
+      "bytes": 7627,
+      "sha256": "280a0a2f0dd04a8570b320aafc0c3ece0f5de8ddb21c363645567d6a35d84da7",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src-tauri/src/native_core/common.rs"
+      }
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/native.rs",
+      "bytes": 14551,
+      "sha256": "3192be6beccc110cd6daa22db412e0f90685957ec51b3c71103b78e239978691",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src-tauri/src/native_core/extensions/native.rs"
+      }
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/native_tests.rs",
+      "bytes": 23475,
+      "sha256": "75c4bf5ec47d0d64d3d8e51db0989e708d1474b1bb41a667098bd645394145fc",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src-tauri/src/native_core/extensions/native_tests.rs"
+      }
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_catalog.json",
+      "bytes": 71862,
+      "sha256": "6cba59a7a6ec10dbe985c8fa4f4be82e4b2495b3718fd9a9a8dd7b3169e977e7",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src-tauri/src/native_core/extensions/v2_catalog.json"
+      }
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_catalog.rs",
+      "bytes": 6839,
+      "sha256": "651a16df484f42a827ac69e209e80d09cad868232d1953d241652a4a39481e16",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src-tauri/src/native_core/extensions/v2_catalog.rs"
+      }
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_runtime.rs",
+      "bytes": 3110,
+      "sha256": "df96675ba916a3d70b8e0e5da76f7a9422d238cc3fbe3a5a6178fef21662a6a0",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src-tauri/src/native_core/extensions/v2_runtime.rs"
+      }
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_sdk.rs",
+      "bytes": 6755,
+      "sha256": "4f987346f863db9a7bd6aa1d5a99e149925dc69a44d629727ccc80a567cd27c2",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src-tauri/src/native_core/extensions/v2_sdk.rs"
+      }
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/launcher/clipboard.rs",
+      "bytes": 32045,
+      "sha256": "b76fc181e2685d5025a117fc2b53d8c166dc32cdded4651359d42c5bb78a6706",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src-tauri/src/native_core/launcher/clipboard.rs"
+      }
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/mod.rs",
+      "bytes": 9585,
+      "sha256": "4dd4befe2d911dbf869e063e7574e0750ae5f0ee74e6a2a9026e531eb703b4ee",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src-tauri/src/native_core/mod.rs"
+      }
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/platform.rs",
+      "bytes": 28906,
+      "sha256": "75fa7ce4204edbbdb0f4a5410895b32239939b707256c484dc3c4f9de390b5a1",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "src-tauri/src/native_core/platform.rs"
+      }
+    },
+    {
+      "path": "fixtures/licenses/beta-LICENSE",
+      "bytes": 10750,
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf",
+      "source": {
+        "repository": "https://github.com/almatkai/Tezbar",
+        "commit": "fd300e276356587726566026f072563eb9c34cb1",
+        "path": "LICENSE"
+      }
+    },
+    {
+      "path": "fixtures/licenses/raycast-LICENSE",
+      "bytes": 1064,
+      "sha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755",
+      "source": {
+        "repository": "https://github.com/raycast/extensions",
+        "commit": "6734d85992290066fd31a7f5bee3cca3d3545a1a",
+        "path": "LICENSE"
+      }
+    },
+    {
+      "path": "fixtures/oracle/immutable/LICENSE",
+      "bytes": 1080,
+      "sha256": "51887a3d47051ac2fce1210562e5b9fe0830a8a8fabeb272c2d586eeb18a05fd",
+      "source": {
+        "npm": "immutable",
+        "version": "3.8.3",
+        "resolved": "https://registry.npmjs.org/immutable/-/immutable-3.8.3.tgz",
+        "integrity": "sha512-AUY/VyX0E5XlibOmWt10uabJzam1zlYjwiEgQSDc5+UIkFNaF9WM0JxXKaNMGf+F/ffUF+7kRKXM9A7C0xXqMg==",
+        "path": "LICENSE"
+      }
+    },
+    {
+      "path": "fixtures/oracle/immutable/README.md",
+      "bytes": 17086,
+      "sha256": "ef7a7953b2954d30d6c5216282a5155bcc0aea333154bb316c34e3d8b03ca106",
+      "source": {
+        "npm": "immutable",
+        "version": "3.8.3",
+        "resolved": "https://registry.npmjs.org/immutable/-/immutable-3.8.3.tgz",
+        "integrity": "sha512-AUY/VyX0E5XlibOmWt10uabJzam1zlYjwiEgQSDc5+UIkFNaF9WM0JxXKaNMGf+F/ffUF+7kRKXM9A7C0xXqMg==",
+        "path": "README.md"
+      }
+    },
+    {
+      "path": "fixtures/oracle/immutable/contrib/cursor/README.md",
+      "bytes": 1004,
+      "sha256": "f7eb53f3399059b5dec13d70d1910d960fbe621bbac238883b2d6b2a636abcf9",
+      "source": {
+        "npm": "immutable",
+        "version": "3.8.3",
+        "resolved": "https://registry.npmjs.org/immutable/-/immutable-3.8.3.tgz",
+        "integrity": "sha512-AUY/VyX0E5XlibOmWt10uabJzam1zlYjwiEgQSDc5+UIkFNaF9WM0JxXKaNMGf+F/ffUF+7kRKXM9A7C0xXqMg==",
+        "path": "contrib/cursor/README.md"
+      }
+    },
+    {
+      "path": "fixtures/oracle/immutable/contrib/cursor/__tests__/Cursor.ts.skip",
+      "bytes": 13743,
+      "sha256": "dcb621fccd8b0e8e24d3071dbd59bbb656d8d4901e129e86ad1e0c4231b86ca8",
+      "source": {
+        "npm": "immutable",
+        "version": "3.8.3",
+        "resolved": "https://registry.npmjs.org/immutable/-/immutable-3.8.3.tgz",
+        "integrity": "sha512-AUY/VyX0E5XlibOmWt10uabJzam1zlYjwiEgQSDc5+UIkFNaF9WM0JxXKaNMGf+F/ffUF+7kRKXM9A7C0xXqMg==",
+        "path": "contrib/cursor/__tests__/Cursor.ts.skip"
+      }
+    },
+    {
+      "path": "fixtures/oracle/immutable/contrib/cursor/index.d.ts",
+      "bytes": 9264,
+      "sha256": "c3a14f232df2cb830ee8f0872e1917d8291f20d03f5a159f99273ff9b51bf77a",
+      "source": {
+        "npm": "immutable",
+        "version": "3.8.3",
+        "resolved": "https://registry.npmjs.org/immutable/-/immutable-3.8.3.tgz",
+        "integrity": "sha512-AUY/VyX0E5XlibOmWt10uabJzam1zlYjwiEgQSDc5+UIkFNaF9WM0JxXKaNMGf+F/ffUF+7kRKXM9A7C0xXqMg==",
+        "path": "contrib/cursor/index.d.ts"
+      }
+    },
+    {
+      "path": "fixtures/oracle/immutable/contrib/cursor/index.js",
+      "bytes": 9106,
+      "sha256": "4bef214fd165ebd8840231afe039afefd3c01854aceaed6876b82c39489ab415",
+      "source": {
+        "npm": "immutable",
+        "version": "3.8.3",
+        "resolved": "https://registry.npmjs.org/immutable/-/immutable-3.8.3.tgz",
+        "integrity": "sha512-AUY/VyX0E5XlibOmWt10uabJzam1zlYjwiEgQSDc5+UIkFNaF9WM0JxXKaNMGf+F/ffUF+7kRKXM9A7C0xXqMg==",
+        "path": "contrib/cursor/index.js"
+      }
+    },
+    {
+      "path": "fixtures/oracle/immutable/dist/immutable-nonambient.d.ts",
+      "bytes": 81791,
+      "sha256": "407b11f5c8edb4fdb4871a666f15d2ea4a8ca30153f0f74ceee6c247dcc2cceb",
+      "source": {
+        "npm": "immutable",
+        "version": "3.8.3",
+        "resolved": "https://registry.npmjs.org/immutable/-/immutable-3.8.3.tgz",
+        "integrity": "sha512-AUY/VyX0E5XlibOmWt10uabJzam1zlYjwiEgQSDc5+UIkFNaF9WM0JxXKaNMGf+F/ffUF+7kRKXM9A7C0xXqMg==",
+        "path": "dist/immutable-nonambient.d.ts"
+      }
+    },
+    {
+      "path": "fixtures/oracle/immutable/dist/immutable.d.ts",
+      "bytes": 81871,
+      "sha256": "7f81c200d24038840f079a88fc8d0a1b916a7a9e744e5aa45ead04aa49045075",
+      "source": {
+        "npm": "immutable",
+        "version": "3.8.3",
+        "resolved": "https://registry.npmjs.org/immutable/-/immutable-3.8.3.tgz",
+        "integrity": "sha512-AUY/VyX0E5XlibOmWt10uabJzam1zlYjwiEgQSDc5+UIkFNaF9WM0JxXKaNMGf+F/ffUF+7kRKXM9A7C0xXqMg==",
+        "path": "dist/immutable.d.ts"
+      }
+    },
+    {
+      "path": "fixtures/oracle/immutable/dist/immutable.js",
+      "bytes": 142565,
+      "sha256": "9bb6f2c9130988f88949db6cfe3754a5da374f3d188e640b35ba08c9eb4ce8ab",
+      "source": {
+        "npm": "immutable",
+        "version": "3.8.3",
+        "resolved": "https://registry.npmjs.org/immutable/-/immutable-3.8.3.tgz",
+        "integrity": "sha512-AUY/VyX0E5XlibOmWt10uabJzam1zlYjwiEgQSDc5+UIkFNaF9WM0JxXKaNMGf+F/ffUF+7kRKXM9A7C0xXqMg==",
+        "path": "dist/immutable.js"
+      }
+    },
+    {
+      "path": "fixtures/oracle/immutable/dist/immutable.js.flow",
+      "bytes": 19261,
+      "sha256": "adc6417e5d341d55c07ad4490079d8d053905b1c4d299c9b9832b41d87f59f94",
+      "source": {
+        "npm": "immutable",
+        "version": "3.8.3",
+        "resolved": "https://registry.npmjs.org/immutable/-/immutable-3.8.3.tgz",
+        "integrity": "sha512-AUY/VyX0E5XlibOmWt10uabJzam1zlYjwiEgQSDc5+UIkFNaF9WM0JxXKaNMGf+F/ffUF+7kRKXM9A7C0xXqMg==",
+        "path": "dist/immutable.js.flow"
+      }
+    },
+    {
+      "path": "fixtures/oracle/immutable/dist/immutable.min.js",
+      "bytes": 56991,
+      "sha256": "b0adab6d47a9a19450860a87d9925f89907b0fc763b70b90d31b7d3cb155c6c5",
+      "source": {
+        "npm": "immutable",
+        "version": "3.8.3",
+        "resolved": "https://registry.npmjs.org/immutable/-/immutable-3.8.3.tgz",
+        "integrity": "sha512-AUY/VyX0E5XlibOmWt10uabJzam1zlYjwiEgQSDc5+UIkFNaF9WM0JxXKaNMGf+F/ffUF+7kRKXM9A7C0xXqMg==",
+        "path": "dist/immutable.min.js"
+      }
+    },
+    {
+      "path": "fixtures/oracle/immutable/package.json",
+      "bytes": 3045,
+      "sha256": "c3144016cbce39b6d1a4a0b77e3a002b62f45b3a8fe0fac6e5f72aa0aed233ab",
+      "source": {
+        "npm": "immutable",
+        "version": "3.8.3",
+        "resolved": "https://registry.npmjs.org/immutable/-/immutable-3.8.3.tgz",
+        "integrity": "sha512-AUY/VyX0E5XlibOmWt10uabJzam1zlYjwiEgQSDc5+UIkFNaF9WM0JxXKaNMGf+F/ffUF+7kRKXM9A7C0xXqMg==",
+        "path": "package.json"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/_.js",
+      "bytes": 32215,
+      "sha256": "89f5309076ab286cb9463c405f5ffef310ac3ec7dd3039754a74a458de047c04",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "_.js"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/dist/collapse-interfaces.d.ts",
+      "bytes": 70,
+      "sha256": "e39dd754eb4b8d094fecbf20c7b0cc3e59cdae955c52c0b1a1591745146ce313",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "dist/collapse-interfaces.d.ts"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/dist/collapse-interfaces.js",
+      "bytes": 19329,
+      "sha256": "95e2771cee9457a7432df3d4f1664e7022445419b9ca3f07f98a43318a77d6f6",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "dist/collapse-interfaces.js"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/dist/index.d.ts",
+      "bytes": 539,
+      "sha256": "6fb9144cac5e049fa8289d2c23cbe749c9f7d3dddcc0cf01eb7f63c2b2c8022b",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "dist/index.d.ts"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/dist/index.js",
+      "bytes": 8403,
+      "sha256": "6ebaf595ceeaab074c76e541ae2a1017a2236d52f0ce5c92442390cdea2e269c",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "dist/index.js"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/dist/parser.d.ts",
+      "bytes": 367,
+      "sha256": "3a576ff494f4afdce2e1d965c3d8d9948a1bb23eb0d2e486135ab05e778130c0",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "dist/parser.d.ts"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/dist/parser.js",
+      "bytes": 20973,
+      "sha256": "741ababe7ed295b1d1363380309c0afb113021b7b65d00ffd7c2252ad54cbef5",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "dist/parser.js"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/dist/printer.d.ts",
+      "bytes": 267,
+      "sha256": "69deb336c675a28b30833580e0aa3ef39cd9c3bd0de38d74f434ec9c4778f836",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "dist/printer.d.ts"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/dist/printer.js",
+      "bytes": 10887,
+      "sha256": "bf851a2857ad99d850ea99c10984bb50c76403abad01e50e5b6bc35ae6384ddc",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "dist/printer.js"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/dist/transformer.d.ts",
+      "bytes": 663,
+      "sha256": "3fbdabe8f32f8b00c93eae4fb81ffef56f6351ffb2c1a96a829402659881b78e",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "dist/transformer.d.ts"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/dist/transformer.js",
+      "bytes": 31435,
+      "sha256": "8a26ac02a97b5f3ae938a0ba45d9118c0a4eba7808077361edf62a6374dcc995",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "dist/transformer.js"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/dist/util.d.ts",
+      "bytes": 136,
+      "sha256": "0adef34d41a7535c6b23f92386ee043c79c58135c01398e3bd0846b56545902d",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "dist/util.d.ts"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/dist/util.js",
+      "bytes": 3612,
+      "sha256": "098659daebec84a85f8eb0414003bf0463bc804d971a05fb32eb5ac21f66176c",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "dist/util.js"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/package.json",
+      "bytes": 880,
+      "sha256": "927dfc46eea2b99db3b8b64170b085a3c6c0ec64691dd7bd2bb3aeedf883862f",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "package.json"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/readme.md",
+      "bytes": 5238,
+      "sha256": "380e8a4874ecd4763daae2ed067d6ce6e3d858e660aebdac9080f46171a5aa86",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "readme.md"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/src/bin.ts",
+      "bytes": 3383,
+      "sha256": "f184279e5664a81c42f4ddb0463b23240bdeb9513cb77eaec66d5a5c6eb450cd",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "src/bin.ts"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/src/collapse-interfaces.js",
+      "bytes": 6858,
+      "sha256": "0cfb39f14f3f9227e42873afea8b0819038a802c23580c5c43e7ea03e7c16543",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "src/collapse-interfaces.js"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/src/collapse-interfaces.ts",
+      "bytes": 5343,
+      "sha256": "8a6997519243ceb941016c0bf922fce09fac559941bb6a7cd7fce35772beead5",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "src/collapse-interfaces.ts"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/src/index.js",
+      "bytes": 1288,
+      "sha256": "aea2a7082d2feaa8ee9d4e2d83212a1cf7295cc3ea6efa1892cc258d6bb9caa1",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "src/index.js"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/src/index.ts",
+      "bytes": 2151,
+      "sha256": "44e9eff35a5d2ff80e9af41f2a515f36a624072d252985df13c9d3a258ac8f3b",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "src/index.ts"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/src/parser.js",
+      "bytes": 5216,
+      "sha256": "4f7321aad9787944ebe4d5134b90743e5b5b499681e93641269cbd1b7db23e9d",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "src/parser.js"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/src/parser.ts",
+      "bytes": 6093,
+      "sha256": "384f0e0f663077f11bef9ab7b9ee2087cb453b95723ad509d5902c0a24b4e25d",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "src/parser.ts"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/src/printer.js",
+      "bytes": 1749,
+      "sha256": "ad82b7914003f0e5d931b3536fe92c8afe897e7412b9d0d0d7d3670487b40608",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "src/printer.js"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/src/printer.ts",
+      "bytes": 2827,
+      "sha256": "8235fc0ec40051c1884b9059d59ea491f563106397318bb1769b1f414a685c85",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "src/printer.ts"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/src/transformer.js",
+      "bytes": 8138,
+      "sha256": "c6cf72a7601f6a97190876eaf3d8ef2ca1b07b78e86b3abfe3966a6cb4ebcfff",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "src/transformer.js"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/src/transformer.ts",
+      "bytes": 8688,
+      "sha256": "04fe2ad0f9f6ad0a464a96faf4cd4d1d258f98e89eda4e91b29d26ca8e7c45a4",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "src/transformer.ts"
+      }
+    },
+    {
+      "path": "fixtures/oracle/json-ts/src/util.ts",
+      "bytes": 772,
+      "sha256": "3af2f2dde1f4d7a8975a7059e52841f1b6f279417b01c285c14273cbd23b4f24",
+      "source": {
+        "npm": "json-ts",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/json-ts/-/json-ts-1.6.4.tgz",
+        "integrity": "sha512-NFsb12aYB3v2W14UOX6zcYvfrkFmwJWlzGrmKFlRQtJujtnpAKFRvVem4L30MvJjJQmOKDUTRIgLUAE4UTFqRg==",
+        "path": "src/util.ts"
+      }
+    },
+    {
+      "path": "fixtures/oracle/needsquotes/.npmignore",
+      "bytes": 19,
+      "sha256": "77b957b16f4026c21faa693b85d26205c01d9f0934d82e0a8184deb270f3a8aa",
+      "source": {
+        "npm": "needsquotes",
+        "version": "1.0.0",
+        "resolved": "https://registry.npmjs.org/needsquotes/-/needsquotes-1.0.0.tgz",
+        "integrity": "sha512-9s1L/CCkVzc6DkK2OHsI+ltpPHxW4RvAYOcAV/AqSUlO5knDR3QjPeBeHeCryw6BCpRx0EtNBnEVkwYRCZvlkg==",
+        "path": ".npmignore"
+      }
+    },
+    {
+      "path": "fixtures/oracle/needsquotes/index.js",
+      "bytes": 26454,
+      "sha256": "2f282e1647294ec96dede4ebdf1b2ee89f7a5f21749e6b6afe4020f38f829aeb",
+      "source": {
+        "npm": "needsquotes",
+        "version": "1.0.0",
+        "resolved": "https://registry.npmjs.org/needsquotes/-/needsquotes-1.0.0.tgz",
+        "integrity": "sha512-9s1L/CCkVzc6DkK2OHsI+ltpPHxW4RvAYOcAV/AqSUlO5knDR3QjPeBeHeCryw6BCpRx0EtNBnEVkwYRCZvlkg==",
+        "path": "index.js"
+      }
+    },
+    {
+      "path": "fixtures/oracle/needsquotes/package.json",
+      "bytes": 225,
+      "sha256": "860bcd771a2e08956f7bca52095bb454cc22695c49689f39017b980e3edc33ab",
+      "source": {
+        "npm": "needsquotes",
+        "version": "1.0.0",
+        "resolved": "https://registry.npmjs.org/needsquotes/-/needsquotes-1.0.0.tgz",
+        "integrity": "sha512-9s1L/CCkVzc6DkK2OHsI+ltpPHxW4RvAYOcAV/AqSUlO5knDR3QjPeBeHeCryw6BCpRx0EtNBnEVkwYRCZvlkg==",
+        "path": "package.json"
+      }
+    },
+    {
+      "path": "fixtures/oracle/typescript/LICENSE.txt",
+      "bytes": 9197,
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+      "source": {
+        "npm": "typescript",
+        "version": "2.9.2",
+        "resolved": "https://registry.npmjs.org/typescript/-/typescript-2.9.2.tgz",
+        "integrity": "sha512-Gr4p6nFNaoufRIY4NMdpQRNmgxVIGMs4Fcu/ujdYk3nAZqk7supzBE9idmvfZIlH/Cuj//dvi+019qEue9lV0w==",
+        "path": "LICENSE.txt"
+      }
+    },
+    {
+      "path": "fixtures/oracle/typescript/ThirdPartyNoticeText.txt",
+      "bytes": 6518,
+      "sha256": "becd541fcacc317c265ada7290e617e02fb8a35269c861ab6945a05bf554f481",
+      "source": {
+        "npm": "typescript",
+        "version": "2.9.2",
+        "resolved": "https://registry.npmjs.org/typescript/-/typescript-2.9.2.tgz",
+        "integrity": "sha512-Gr4p6nFNaoufRIY4NMdpQRNmgxVIGMs4Fcu/ujdYk3nAZqk7supzBE9idmvfZIlH/Cuj//dvi+019qEue9lV0w==",
+        "path": "ThirdPartyNoticeText.txt"
+      }
+    },
+    {
+      "path": "fixtures/oracle/typescript/lib/typescript.js",
+      "bytes": 6284179,
+      "sha256": "070f00ce83d199ab96e847b28d9bc23b6c87ffe16dae7226b65ded2e3e32f13b",
+      "source": {
+        "npm": "typescript",
+        "version": "2.9.2",
+        "resolved": "https://registry.npmjs.org/typescript/-/typescript-2.9.2.tgz",
+        "integrity": "sha512-Gr4p6nFNaoufRIY4NMdpQRNmgxVIGMs4Fcu/ujdYk3nAZqk7supzBE9idmvfZIlH/Cuj//dvi+019qEue9lV0w==",
+        "path": "lib/typescript.js"
+      }
+    },
+    {
+      "path": "fixtures/oracle/typescript/package.json",
+      "bytes": 3209,
+      "sha256": "db88a9bad82efebe550e1fcc711cefd1872667376abce6cbb907ff961f8aa1eb",
+      "source": {
+        "npm": "typescript",
+        "version": "2.9.2",
+        "resolved": "https://registry.npmjs.org/typescript/-/typescript-2.9.2.tgz",
+        "integrity": "sha512-Gr4p6nFNaoufRIY4NMdpQRNmgxVIGMs4Fcu/ujdYk3nAZqk7supzBE9idmvfZIlH/Cuj//dvi+019qEue9lV0w==",
+        "path": "package.json"
+      }
+    },
+    {
+      "path": "fixtures/original/assets/command-icon.png",
+      "bytes": 29082,
+      "sha256": "0b083ac11c306e7704f359a6d8b15a95a77f6a0b9f2ea76c6d628f8a3d43cd7c",
+      "source": {
+        "repository": "https://github.com/raycast/extensions",
+        "commit": "6734d85992290066fd31a7f5bee3cca3d3545a1a",
+        "path": "extensions/json2ts/assets/command-icon.png"
+      }
+    },
+    {
+      "path": "fixtures/original/package.json",
+      "bytes": 935,
+      "sha256": "9a5fce0cc013576f2d9303db327b1743fb828ffa4b925e9ea8c2367b359848cd",
+      "source": {
+        "repository": "https://github.com/raycast/extensions",
+        "commit": "6734d85992290066fd31a7f5bee3cca3d3545a1a",
+        "path": "extensions/json2ts/package.json"
+      }
+    },
+    {
+      "path": "fixtures/original/src/index.tsx",
+      "bytes": 1267,
+      "sha256": "777235a33bdb36164b51bb5f7326734d8cad58b4f8e3fce74e6fd264327ac0c8",
+      "source": {
+        "repository": "https://github.com/raycast/extensions",
+        "commit": "6734d85992290066fd31a7f5bee3cca3d3545a1a",
+        "path": "extensions/json2ts/src/index.tsx"
+      }
+    },
+    {
+      "path": "fixtures/own/.gitignore",
+      "bytes": 68,
+      "sha256": "b027adcbb6131ef49be335e9a699657351ca3d5bb2b474379634d1714f5a585b",
+      "source": {
+        "repository": "https://github.com/almatkai/json2ts",
+        "commit": "8186f2229ec907bb3f705d1a641fd7159f0339f9",
+        "path": ".gitignore"
+      }
+    },
+    {
+      "path": "fixtures/own/.prettierrc",
+      "bytes": 48,
+      "sha256": "af858765de11954366be23467b95bae5e1a86818411c6723df7542cea9ffd521",
+      "source": {
+        "repository": "https://github.com/almatkai/json2ts",
+        "commit": "8186f2229ec907bb3f705d1a641fd7159f0339f9",
+        "path": ".prettierrc"
+      }
+    },
+    {
+      "path": "fixtures/own/CHANGELOG.md",
+      "bytes": 271,
+      "sha256": "1718e5e6ea6005cd48e8936fdc7a428193a1fa0e45e3636e6a3dc9979336c1c2",
+      "source": {
+        "repository": "https://github.com/almatkai/json2ts",
+        "commit": "8186f2229ec907bb3f705d1a641fd7159f0339f9",
+        "path": "CHANGELOG.md"
+      }
+    },
+    {
+      "path": "fixtures/own/LICENSE",
+      "bytes": 1087,
+      "sha256": "1d7dbdbcd4fe14dfa08334fab20bffad23c1290f195792a3a4420dadf9912f81",
+      "source": {
+        "repository": "https://github.com/almatkai/json2ts",
+        "commit": "8186f2229ec907bb3f705d1a641fd7159f0339f9",
+        "path": "LICENSE"
+      }
+    },
+    {
+      "path": "fixtures/own/README.md",
+      "bytes": 136,
+      "sha256": "c5f0220cd2e619a60decc34cfc456aca5495a18ad9dcb64a913c67beafd7c7bc",
+      "source": {
+        "repository": "https://github.com/almatkai/json2ts",
+        "commit": "8186f2229ec907bb3f705d1a641fd7159f0339f9",
+        "path": "README.md"
+      }
+    },
+    {
+      "path": "fixtures/own/assets/command-icon.png",
+      "bytes": 29082,
+      "sha256": "0b083ac11c306e7704f359a6d8b15a95a77f6a0b9f2ea76c6d628f8a3d43cd7c",
+      "source": {
+        "repository": "https://github.com/almatkai/json2ts",
+        "commit": "8186f2229ec907bb3f705d1a641fd7159f0339f9",
+        "path": "assets/command-icon.png"
+      }
+    },
+    {
+      "path": "fixtures/own/eslint.config.mjs",
+      "bytes": 148,
+      "sha256": "be2989fe08a37b6e3b848f07b42ee15d92f3b8b812355bc0a28b2f0765884a99",
+      "source": {
+        "repository": "https://github.com/almatkai/json2ts",
+        "commit": "8186f2229ec907bb3f705d1a641fd7159f0339f9",
+        "path": "eslint.config.mjs"
+      }
+    },
+    {
+      "path": "fixtures/own/package-lock.json",
+      "bytes": 112986,
+      "sha256": "8120624bbbe85773884d10dde5bed3a400e9a8078cdd1e05782bf79c65cdc19f",
+      "source": {
+        "repository": "https://github.com/almatkai/json2ts",
+        "commit": "8186f2229ec907bb3f705d1a641fd7159f0339f9",
+        "path": "package-lock.json"
+      }
+    },
+    {
+      "path": "fixtures/own/package.json",
+      "bytes": 1485,
+      "sha256": "3c9ba60708127cc77c3fa03753334d680302134f351fdce2a5b7cf298fe9ff93",
+      "source": {
+        "repository": "https://github.com/almatkai/json2ts",
+        "commit": "8186f2229ec907bb3f705d1a641fd7159f0339f9",
+        "path": "package.json"
+      }
+    },
+    {
+      "path": "fixtures/own/raycast-env.d.ts",
+      "bytes": 647,
+      "sha256": "69f21c35eda9ce3c635ab53d2224932e4b6b2fade691271bb54d9875283e6333",
+      "source": {
+        "repository": "https://github.com/almatkai/json2ts",
+        "commit": "8186f2229ec907bb3f705d1a641fd7159f0339f9",
+        "path": "raycast-env.d.ts"
+      }
+    },
+    {
+      "path": "fixtures/own/src/index.tsx",
+      "bytes": 1267,
+      "sha256": "777235a33bdb36164b51bb5f7326734d8cad58b4f8e3fce74e6fd264327ac0c8",
+      "source": {
+        "repository": "https://github.com/almatkai/json2ts",
+        "commit": "8186f2229ec907bb3f705d1a641fd7159f0339f9",
+        "path": "src/index.tsx"
+      }
+    },
+    {
+      "path": "fixtures/own/test/smoke.test.ts",
+      "bytes": 449,
+      "sha256": "0e8ea86beaaac623a60b6cba388caeb668c4397f6abb495bc83ac84b483bd99b",
+      "source": {
+        "repository": "https://github.com/almatkai/json2ts",
+        "commit": "8186f2229ec907bb3f705d1a641fd7159f0339f9",
+        "path": "test/smoke.test.ts"
+      }
+    },
+    {
+      "path": "fixtures/own/tsconfig.json",
+      "bytes": 414,
+      "sha256": "7b3b5db2a7715ec27ec188a2e517c3879ce71287c0cf54aeff2524cff63d3905",
+      "source": {
+        "repository": "https://github.com/almatkai/json2ts",
+        "commit": "8186f2229ec907bb3f705d1a641fd7159f0339f9",
+        "path": "tsconfig.json"
+      }
+    },
+    {
+      "path": "assets/command-icon.png",
+      "bytes": 29082,
+      "sha256": "0b083ac11c306e7704f359a6d8b15a95a77f6a0b9f2ea76c6d628f8a3d43cd7c",
+      "source": {
+        "kind": "exact original icon copy"
+      }
+    },
+    {
+      "path": "src/tables.json",
+      "bytes": 70202,
+      "sha256": "74d19a4a6638cba0a636fd03729ae1bf66467c48efdd607a035f3b11407519f9",
+      "source": {
+        "kind": "scripts/tables.cjs derived from pinned needsquotes and Lodash; uppercase from Node 26.7.0"
+      }
+    }
+  ]
+}

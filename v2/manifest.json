@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 2,
+  "id": "com.tezbar.native.json2ts",
+  "slug": "json2ts",
+  "name": "Json2TS",
+  "version": "0.1.0",
+  "description": "Generate TypeScript interfaces from JSON. Original extension by gbarba; contributor yusifaliyevpro. Tezbar port by almatkai.",
+  "icon": "/extensions/icons/json2ts.png",
+  "runtime": "rust",
+  "replaces": [
+    "raycast.json2ts"
+  ],
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "commands": [
+    {
+      "name": "index",
+      "title": "Json2ts",
+      "description": "Generate TypeScript interfaces from JSON",
+      "mode": "view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust"
+    }
+  ],
+  "verification": [
+    {
+      "platform": "macOS",
+      "state": "not-run",
+      "note": "Host registration/rebuild and real UI/clipboard/focus/hide verification not run; headless tests only."
+    },
+    {
+      "platform": "Windows",
+      "state": "not-run",
+      "note": "Host registration/rebuild and real UI/clipboard/focus/hide verification not run; headless tests only."
+    }
+  ]
+}

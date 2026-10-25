@@ -1,0 +1,18 @@
+[package]
+name = "tezbar-json2ts"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+license = "MIT AND ISC AND Apache-2.0 AND LicenseRef-json-ts-Unspecified"
+description = "Offline Rust Json2TS inference and compiled beta adapter"
+repository = "https://github.com/almatkai/json2ts"
+include = ["/src/**", "/adapter/**", "/tests/**", "/fixtures/**", "/scripts/**", "/Cargo.toml", "/Cargo.lock", "/*.md", "/manifest.json", "/assets/**", "/harness/**", "/renderer/**", "/PROVENANCE.json", "/LICENSE", "/.gitignore"]
+
+[dependencies]
+serde_json = "=1.0.145"
+fancy-regex = "=0.14.0"
+ryu-js = "=1.0.2"
+
+[[bin]]
+name = "json2ts-oracle-probe"
+path = "src/bin/probe.rs"

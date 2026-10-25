@@ -1,0 +1,4 @@
+.validation/
+target/
+!fixtures/**/dist/
+!fixtures/**/dist/**
