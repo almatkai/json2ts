@@ -1,0 +1,109 @@
+//! Contract harness: unchanged beta implementation plus explicit headless stubs.
+#![allow(dead_code)]
+pub mod native_core {
+    pub mod common {
+        include!("__ROOT__/fixtures/beta/src-tauri/src/native_core/common.rs");
+    }
+    pub mod extensions {
+        #[path = "__ROOT__/adapter/v2_json2ts.rs"]
+        pub mod v2_json2ts;
+        #[path = "__ROOT__/fixtures/beta/src-tauri/src/native_core/extensions/v2_sdk.rs"]
+        pub mod v2_sdk;
+        // Registration and installed-package lookup stubs: no host catalog/profile changes.
+        pub mod registry {
+            use crate::native_core::common::CoreContext;
+            use serde_json::{json, Value};
+            pub fn installed_command(
+                ctx: &CoreContext,
+                _id: &str,
+                _command: &str,
+            ) -> Option<Value> {
+                if ctx.paths.data_dir.join("uninstalled").exists() {
+                    None
+                } else {
+                    Some(json!({}))
+                }
+            }
+            pub fn preferences(
+                _extension: &Value,
+                _command: Option<&str>,
+            ) -> Result<Value, String> {
+                Ok(json!({}))
+            }
+        }
+        pub mod v2_runtime {
+            use crate::native_core::common::{CoreContext, CoreResult};
+            use serde_json::Value;
+            pub fn slug(id: &str) -> Option<&str> {
+                match id {
+                    "json2ts" | "raycast.json2ts" | "com.tezbar.native.json2ts" => Some("json2ts"),
+                    _ => None,
+                }
+            }
+            pub fn commands(slug: &str) -> &'static [&'static str] {
+                if slug == "json2ts" {
+                    super::v2_json2ts::commands()
+                } else {
+                    &[]
+                }
+            }
+            pub fn canonical_id(slug: &str) -> String {
+                format!("com.tezbar.native.{slug}")
+            }
+            pub fn supports(id: &str, command: &str) -> bool {
+                slug(id).is_some() && super::v2_json2ts::commands().contains(&command)
+            }
+            pub async fn handle(
+                ctx: &CoreContext,
+                slug: &str,
+                command: &str,
+                op: &str,
+                payload: &Value,
+                state: &mut Value,
+            ) -> CoreResult {
+                if slug != "json2ts" {
+                    return Err("Unregistered stub adapter".into());
+                }
+                super::v2_json2ts::handle(ctx, command, op, payload, state).await
+            }
+        }
+        #[path = "__CATALOG__/v2_catalog.rs"]
+        mod v2_catalog;
+        pub fn catalog(slug: &str) -> Option<serde_json::Value> {
+            v2_catalog::manifest(slug)
+        }
+        // NativeSessions has a cfg(test) import for its upstream Perplexity fixture.
+        #[cfg(test)]
+        mod perplexity {}
+        #[path = "__ROOT__/fixtures/beta/src-tauri/src/native_core/extensions/native.rs"]
+        mod native;
+        pub struct Sessions(native::NativeSessions);
+        impl Default for Sessions {
+            fn default() -> Self {
+                Self(native::NativeSessions::default())
+            }
+        }
+        impl Sessions {
+            pub async fn call(
+                &self,
+                ctx: &crate::native_core::common::CoreContext,
+                channel: &str,
+                body: serde_json::Value,
+            ) -> serde_json::Value {
+                self.0
+                    .handle(
+                        ctx,
+                        &std::sync::Arc::new(std::sync::Mutex::new(())),
+                        channel,
+                        &[body],
+                    )
+                    .await
+                    .expect("native route")
+                    .expect("native result")
+            }
+            pub async fn clear(&self) {
+                self.0.clear().await;
+            }
+        }
+    }
+}

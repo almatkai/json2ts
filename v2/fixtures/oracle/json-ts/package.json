@@ -1,0 +1,42 @@
+{
+  "name": "json-ts",
+  "version": "1.6.4",
+  "description": "Automatically generate Typescript Definition files or Flow types from JSON input",
+  "dependencies": {
+    "get-stdin": "^5.0.1",
+    "immutable": "^3.8.1",
+    "minimist": "^1.2.0",
+    "needsquotes": "^1.0.0",
+    "transducers-js": "^0.4.174",
+    "typescript": "^2.3.2"
+  },
+  "keywords": [
+    "json",
+    "typescript",
+    "flow",
+    "types",
+    "interfaces"
+  ],
+  "scripts": {
+    "test": "tsc && jest --runInBand",
+    "prepublish": "npm test"
+  },
+  "bin": {
+    "json-ts": "dist/bin.js"
+  },
+  "files": [
+    "dist",
+    "src",
+    "_.js"
+  ],
+  "repository": "shakyshane/json-ts",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@types/node": "^7.0.18",
+    "browserify": "^14.3.0",
+    "exorcist": "^0.4.0",
+    "jest": "22",
+    "source-map-support": "^0.4.15",
+    "uglify-js": "^3.0.10"
+  }
+}
